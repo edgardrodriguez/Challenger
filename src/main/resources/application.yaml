@@ -1,0 +1,10 @@
+# Agregar su credenciales de mongo atlas
+
+spring:
+  data:
+    mongodb:
+      database: db_ms_product
+      uri: mongodb+srv://admin:1234@mycluster.in2ez.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+server:
+  port: 8081
